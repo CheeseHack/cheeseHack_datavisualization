@@ -11,9 +11,8 @@ def generatePage(content):
 
 @app.route('/')
 def home():
-    with open("home.txt") as f:
-        content = f.read()
-    html = generatePage(content)
+    with open("index.html") as f:
+        html = f.read()
     return html
 
 @app.route('/query.html')
