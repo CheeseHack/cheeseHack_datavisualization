@@ -15,3 +15,6 @@
 ## Project Management
 
 * FrontEnd: Creating the Webpage for Data Visualization
+
+* BackEnd: Using Flask to run the website continusouly
+
