@@ -13,3 +13,5 @@
 * [CSS Tutorial] (https://www.geeksforgeeks.org/css/)
 
 ## Project Management
+
+* FrontEnd: Creating the Webpage for Data Visualization
