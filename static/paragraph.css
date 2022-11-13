@@ -54,7 +54,7 @@ h1{
 	font-size: 19px;
 }
 
-#tableauViz{
+.graphtable{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -64,6 +64,14 @@ h1{
     border-color: lightgray;
     z-index: 0;
     position: fixed;
-    left:-50;
-    right:-50;
+    left:0;
+    right:0;
+}
+
+#tableauViz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
 }
