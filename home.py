@@ -24,6 +24,19 @@ def home():
         html = f.read()
     return html
 
+
+@app.route('/graph.html')
+def graph():
+    with open("graph.html") as f:
+        html = f.read()
+    return html
+
+@app.route('/About.html')
+def About():
+    with open("About.html") as f:
+        html = f.read()
+    return html
+
 @app.route('/query.html')
 def showquery():
     category = request.args.get("category", 'total_vaccinations')
