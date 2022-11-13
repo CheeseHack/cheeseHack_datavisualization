@@ -44,3 +44,17 @@ h1{
 .textbox a:hover{
     text-decoration: underline;
 }
+
+#tableauViz{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    z-index: 0;
+    position: fixed;
+    left:-50;
+    right:-50;
+}
