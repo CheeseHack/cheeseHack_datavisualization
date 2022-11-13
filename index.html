@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Adding the title for the webPage-->
         <title>CheeseHack Data Visualization HomeSite</title>
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="paragraph.css">
+        <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
     </head>
 
     <body>
-        
+        <!--Creating the header box for function headers-->
         <div class="header">
+            <!--Separate the header section into left and right-->
             <div class="left_section">
                 <a class="left_title" href="index.html">Homepage</a>
             </div>
@@ -30,4 +33,10 @@
                 <p></p>
             </div>
         </div>
-    </body>
+
+
+<tableau-viz id="tableauViz" src='https://public.tableau.com/views/Superstore_24/Overview'      
+  device="phone" toolbar="bottom" hide-tabs>
+</tableau-viz>
+
+</body>

@@ -10,7 +10,7 @@
     top:0;
     left:0;
     right:0;
-    background-color: white;
+    background-color: rgb(87, 87, 206);
 }
 
 .left_section{
@@ -22,7 +22,7 @@
 .left_title{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    color: #494e52;
+    color: white;
     font-size:18px;
     font-weight:700;
     text-decoration-style: solid; 
@@ -44,7 +44,7 @@
 .right_title{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    color: #494e52;
+    color: white;
     font-size:18px;
     font-weight:700;
     text-decoration-style: solid; 
