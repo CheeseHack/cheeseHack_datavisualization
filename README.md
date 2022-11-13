@@ -3,7 +3,7 @@
 # Overview
 
 * This project is aimed to analyzing the data of Covid-19 Vaccination in 24 hours project building up. It is purposed to provide user the
-* opportunity to interact and understand the data through both Dynamic and Static Data Visualization and Statistical Data Analysis. 
+opportunity to interact and understand the data through both Dynamic and Static Data Visualization and Statistical Data Analysis. 
 
 ## Learning Resources
 
