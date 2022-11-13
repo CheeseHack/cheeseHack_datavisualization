@@ -45,6 +45,15 @@ h1{
     text-decoration: underline;
 }
 
+.sidebar{
+	float:right;
+	display: flex;
+    position: absolute;
+    flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+}
+
 #tableauViz{
     display:flex;
     flex-direction: row;

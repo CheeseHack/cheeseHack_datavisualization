@@ -38,9 +38,7 @@ def showquery():
 @app.route('/graph.svg')
 def dashboard1():
     category = request.args.get("category", 'total_vaccinations')
-    #print(df_wisc[category])
     fig, ax = plt.subplots()
-    #print(df_wisc[category].to_list())
     ax.scatter(x=df_wisc['date'], y=df_wisc[category].to_list())
     #ax.ticklabel_format(useOffset=False)
     ax.set(xlabel='Date', ylabel =f"{category}", title=f"Wisconsin vaccine stats for {category}")
