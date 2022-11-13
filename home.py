@@ -10,6 +10,7 @@ def generatePage(content):
     return html
 
 @app.route('/')
+@app.route('/index.html')
 def home():
     with open("index.html") as f:
         html = f.read()
