@@ -3,8 +3,8 @@
     <head>
         <!--Adding the title for the webPage-->
         <title>CheeseHack Data Visualization HomeSite</title>
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="paragraph.css">
+        <link rel="stylesheet" href="static/header.css">
+        <link rel="stylesheet" href="static/paragraph.css">
         <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
     </head>
 
@@ -17,7 +17,7 @@
             </div>
 
             <div class="right_section">
-                <a class = "right_title" href="index.html">
+                <a class = "right_title" href="graph.html">
                     Data Visualization
                 </a>
                 <a class = "right_title" href="index.html">
@@ -29,7 +29,14 @@
             </div>
         </div>
 
+        <div class="graphtable">
+            <tableau-viz id="tableauViz" src='https://public.tableau.com/views/Superstore_24/Overview'      
+            device="phone" toolbar="bottom" hide-tabs>
+            </tableau-viz>
+        </div>
 
-<tableau-viz id="tableauViz" src='https://public.tableau.com/views/Superstore_24/Overview'      
-  device="phone" toolbar="bottom" hide-tabs>
-</tableau-viz>
+        <footer>
+        </footer>
+
+    </body>
+
